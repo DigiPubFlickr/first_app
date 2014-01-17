@@ -54,3 +54,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :production
+  gem pg
+end
