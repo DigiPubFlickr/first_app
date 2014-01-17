@@ -25,6 +25,10 @@ gem 'coffee-rails', '~> 4.0.0'
 #gem 'coffee-rails', '3.2.2'
 end
 
+group :production do
+  gem 'pg', '0.17.1'
+end
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -55,6 +59,3 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :production
-  gem pg
-end
